@@ -65,9 +65,17 @@ body {
 }
 
 .Blog .blog__content .content__subtitle {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   color: #7e6fa8;
   margin-bottom: 30px;
+}
+
+.Blog .blog__content .content__subtitle sup {
+  font-size: 15px;
+}
+
+.Blog .blog__content .content__subtitle sub {
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */
