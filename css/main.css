@@ -84,4 +84,8 @@ body {
 .Blog .blog__content .content__subtitle sub {
   font-size: 16px;
 }
+
+.Blog .blog__content:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 /*# sourceMappingURL=main.css.map */
