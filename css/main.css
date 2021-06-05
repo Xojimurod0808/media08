@@ -24,6 +24,7 @@ body {
   background-color: #fff;
   width: 80%;
   margin: 100px auto;
+  padding: 20px;
 }
 
 .Blog .blog__content {
@@ -39,6 +40,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 10px;
+}
+
+.Blog .blog__content:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .Blog .blog__content .content__image {
@@ -65,9 +71,17 @@ body {
 }
 
 .Blog .blog__content .content__subtitle {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   color: #7e6fa8;
   margin-bottom: 30px;
+}
+
+.Blog .blog__content .content__subtitle sup {
+  font-size: 15px;
+}
+
+.Blog .blog__content .content__subtitle sub {
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */
